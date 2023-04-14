@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+
+    <link rel="stylesheet" href="/input.css">
+    <title>product search engine</title>
+</head>
+
+<body class="w-full h-[100vh] bg-gray-200 m-auto flex items-center justify-center flex-col">
+    <div>
+        <section
+            class="container w-[375px] h-[520px] bg-white rounded-[15px] shadow-[4px_4px_30px_rgba(0,0,0,0.6)] p-5 overflow-y-scroll scrollbar-hide">
+            <form class="w-full border border-solid border-[rgb(82,74,235)] rounded-s  flex flex-row items-center">
+                <i class="fas fa-search pl-[10px]"></i>
+                <input type="text" name="" id="search-item" placeholder="search-products"
+                    class="border-none outline-none shadow-none w-full text-base font-semibold py-2 px-[10px]"
+                    onkeyup="search()">
+            </form>
+
+            <ul class="product-list py-5 px-0" id="product-list">
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/1.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">pink printed hoodie</h2>
+                        <h3 class="text-lg">$25</h3>
+                    </div>
+                </li>
+
+                
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/2.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">white full sleeve male</h2>
+                        <h3 class="text-lg">$77</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/3.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">ck male</h2>
+                        <h3 class="text-lg">$66</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/4.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">skin tshirt male</h2>
+                        <h3 class="text-lg">$23</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/5.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">red and white tshirt</h2>
+                        <h3 class="text-lg">$35</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/6.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">white women top</h2>
+                        <h3 class="text-lg">$25</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/7.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">men's blue tshirt</h2>
+                        <h3 class="text-lg">$24</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/8.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">orange women top</h2>
+                        <h3 class="text-lg">$18</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/9.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">gray women top</h2>
+                        <h3 class="text-lg">$15</h3>
+                    </div>
+                </li>
+
+                <li class="product flex items-center cursor-pointer pb-[15px]">
+                    <img src="img/10.jpg" alt="" class="w-[70px] h-[70px] object-cover rounded-[5px]">
+                    <div class="p-details pl-[15px]">
+                        <h2 class="capitalize text-[20px] text-[#1d1d1d]">women's black tshirt</h2>
+                        <h3 class="text-lg">$50</h3>
+                    </div>
+                </li>
+
+
+
+
+<!-- product section end -->
+            </ul>
+
+
+        </section>
+
+
+
+
+        <script src="/app.js"></script>
+    </div>
+</body>
+
+</html>
